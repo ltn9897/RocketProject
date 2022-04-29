@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+
+
+<!-- Mirrored from lms.rocket-soft.org/course/Learn-Linux-in-5-Days by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Apr 2022 07:41:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+<!-- CSRF Token -->
+<meta name="csrf-token" content="kra4XJXSDfBxUwat9nsXOrCUvfUSfuhAEdyDVWhC">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name='robots' content="index, follow, all">
+
+    <meta name="description" content="استخدم مهارات Linux المطلوبة التي تتعلمها في هذه الدورة للحصول على ترقية أو بدء مهنة جديدة كمحترف Linux.">
+    <meta property="og:description" content="استخدم مهارات Linux المطلوبة التي تتعلمها في هذه الدورة للحصول على ترقية أو بدء مهنة جديدة كمحترف Linux.">
+    <meta name='twitter:description' content='استخدم مهارات Linux المطلوبة التي تتعلمها في هذه الدورة للحصول على ترقية أو بدء مهنة جديدة كمحترف Linux.'>
+
+<link rel='shortcut icon' type='image/x-icon' href="../store/1/favicon.png">
+<link rel="manifest" href="../mix-manifest7b30.json?v=4">
+<meta name="theme-color" content="#FFF">
+<!-- Windows Phone -->
+<meta name="msapplication-starturl" content="/">
+<meta name="msapplication-TileColor" content="#FFF">
+<meta name="msapplication-TileImage" content="../ms-icon-144x144.html">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-title" content="Rocket LMS">
+<link rel="apple-touch-icon" href="../store/1/favicon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<!-- Android -->
+<link rel='icon' href='../store/1/favicon.png'>
+<meta name="application-name" content="Rocket LMS">
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Other -->
+<meta name="layoutmode" content="fitscreen/standard">
+<link rel="home" href="../index.html">
+
+<!-- Open Graph -->
+<meta property='og:title' content='تعلم لينكس في خمسة أيام'>
+<meta name='twitter:card' content='summary'>
+<meta name='twitter:title' content='تعلم لينكس في خمسة أيام'>
+
+<meta property='og:site_name' content='https://lms.rocket-soft.org/Rocket LMS'>
+<meta property='og:image' content='../store/1/favicon.png'>
+<meta name='twitter:image' content='../store/1/favicon.png'>
+<meta property='og:locale' content='../en_US.html'>
+<meta property='og:type' content='website'>
+
+    <title>تعلم لينكس في خمسة أيام | Rocket LMS</title>
+
+    <!-- General CSS File -->
+    <link href="../assets/default/css/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/default/vendors/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="../assets/default/vendors/toast/jquery.toast.min.css">
+    <link rel="stylesheet" href="../assets/default/vendors/simplebar/simplebar.css">
+    <link rel="stylesheet" href="../assets/default/css/app.css">
+
+            <link rel="stylesheet" href="../assets/default/css/rtl-app.css">
+    
+        <link rel="stylesheet" href="../assets/default/css/css-stars.css">
+    <link rel="stylesheet" href="../assets/default/vendors/video/video-js.min.css">
+    
+    <style>
+        
+    </style>
+
+
+            <style>
+    .pace { -webkit-pointer-events: none; pointer-events: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; } .pace-inactive { display: none; } .pace .pace-progress { background: #29d; position: fixed; z-index: 2000; top: 0; right: 100%; width: 100%; height: 2px; } .pace .pace-progress-inner { display: block; position: absolute; right: 0px; width: 100px; height: 100%; box-shadow: 0 0 10px #29d, 0 0 5px #29d; opacity: 1.0; -webkit-transform: rotate(3deg) translate(0px, -4px); -moz-transform: rotate(3deg) translate(0px, -4px); -ms-transform: rotate(3deg) translate(0px, -4px); -o-transform: rotate(3deg) translate(0px, -4px); transform: rotate(3deg) translate(0px, -4px); } .pace .pace-activity { display: block; position: fixed; z-index: 2000; top: 15px; right: 15px; width: 14px; height: 14px; border: solid 2px transparent; border-top-color: #29d; border-left-color: #29d; border-radius: 10px; -webkit-animation: pace-spinner 400ms linear infinite; -moz-animation: pace-spinner 400ms linear infinite; -ms-animation: pace-spinner 400ms linear infinite; -o-animation: pace-spinner 400ms linear infinite; animation: pace-spinner 400ms linear infinite; } @-webkit-keyframes pace-spinner { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); } 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } } @-moz-keyframes pace-spinner { 0% { -moz-transform: rotate(0deg); transform: rotate(0deg); } 100% { -moz-transform: rotate(360deg); transform: rotate(360deg); } } @-o-keyframes pace-spinner { 0% { -o-transform: rotate(0deg); transform: rotate(0deg); } 100% { -o-transform: rotate(360deg); transform: rotate(360deg); } } @-ms-keyframes pace-spinner { 0% { -ms-transform: rotate(0deg); transform: rotate(0deg); } 100% { -ms-transform: rotate(360deg); transform: rotate(360deg); } } @keyframes  pace-spinner { 0% { transform: rotate(0deg); transform: rotate(0deg); } 100% { transform: rotate(360deg); transform: rotate(360deg); } }
+</style>
+
+<script>
+    window.paceOptions = {
+        ajax: false, // disabled
+        document: false, // disabled
+        eventLag: false, // disabled
+    };
+</script>
+<script src="../assets/default/vendors/pace-loading/pace.min.js"></script>
+    </head>
+
+<body class=" rtl ">
+
+<div id="app">
+
+            <div class="top-navbar d-flex border-bottom">
+    <div class="container d-flex justify-content-between flex-column flex-lg-row">
+        <div class="top-contact-box border-bottom d-flex flex-column flex-md-row align-items-center justify-content-center">
+
+            <div class="d-flex align-items-center justify-content-center">
+                                    <span class="d-flex align-items-center py-10 py-lg-0 text-dark-blue font-14">
+                        <i data-feather="phone" width="20" height="20" class="mr-10"></i>
+                        415-716-1166
+                    </span>
+                
+                                    <div class="border-left mx-5 mx-lg-15 h-100"></div>
+
+                    <span class="d-flex align-items-center py-10 py-lg-0 text-dark-blue font-14">
+                        <i data-feather="mail" width="20" height="20" class="mr-10"></i>
+                        mailer@rocket-soft.org
+                    </span>
+                            </div>
+
+            <div class="d-flex align-items-center justify-content-between justify-content-md-center">
+                                    <form action="https://lms.rocket-soft.org/locale" method="post" class="mr-15 mx-md-20">
+                        <input type="hidden" name="_token" value="kra4XJXSDfBxUwat9nsXOrCUvfUSfuhAEdyDVWhC">
+
+                        <input type="hidden" name="locale">
+
+                        <div class="language-select">
+                            <div id="localItems"
+                                 data-selected-country="IQ"
+                                 data-countries='{&quot;IQ&quot;:&quot;Arabic&quot;,&quot;US&quot;:&quot;English&quot;,&quot;ES&quot;:&quot;Spanish&quot;}'
+                            ></div>
+                        </div>
+                    </form>
+                
+
+                <form action="https://lms.rocket-soft.org/search" method="get" class="form-inline my-2 my-lg-0 navbar-search position-relative">
+                    <input class="form-control mr-5 rounded" type="text" name="search" placeholder="بحث..." aria-label="Search">
+
+                    <button type="submit" class="btn-transparent d-flex align-items-center justify-content-center search-icon">
+                        <i data-feather="search" width="20" height="20" class="mr-10"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="xs-w-100 d-flex align-items-center justify-content-between ">
+            <div class="d-flex">
+
+                <div class="dropdown">
+    <button type="button" disabled class="btn btn-transparent dropdown-toggle" id="navbarShopingCart" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+        <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+
+            </button>
+
+    <div class="dropdown-menu" aria-labelledby="navbarShopingCart">
+        <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+            <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+        </div>
+        <div class="h-100">
+            <div class="navbar-shopping-cart h-100" data-simplebar>
+                                    <div class="d-flex align-items-center text-center py-50">
+                        <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+                        <span class="">عربتك فارغة</span>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="border-left mx-5 mx-lg-15"></div>
+
+                <div class="dropdown">
+    <button type="button" class="btn btn-transparent dropdown-toggle" disabled id="navbarNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+
+            </button>
+
+    <div class="dropdown-menu pt-20" aria-labelledby="navbarNotification">
+        <div class="d-flex flex-column h-100">
+            <div class="mb-auto navbar-notification-card" data-simplebar>
+                <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+                    <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+                </div>
+
+                                    <div class="d-flex align-items-center text-center py-50">
+                        <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+                        <span class="">الاشعارات الفارغة</span>
+                    </div>
+                
+            </div>
+
+                    </div>
+    </div>
+</div>
+            </div>
+
+                            <div class="d-flex align-items-center ml-md-50">
+                    <a href="../login.html" class="py-5 px-10 mr-10 text-dark-blue font-14">تسجيل الدخول</a>
+                    <a href="../register.html" class="py-5 px-10 text-dark-blue font-14">تسجيل</a>
+                </div>
+                    </div>
+    </div>
+</div>
+
+
+        <div id="navbarVacuum"></div>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between w-100">
+
+            <a class="navbar-brand navbar-order mr-0" href="../index.html">
+                                    <img src="../store/1/default_images/website-logo.png" class="img-cover" alt="site logo">
+                            </a>
+
+            <button class="navbar-toggler navbar-order" type="button" id="navbarToggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="mx-lg-30 d-none d-lg-flex flex-grow-1 navbar-toggle-content " id="navbarContent">
+                <div class="navbar-toggle-header text-right d-lg-none">
+                    <button class="btn-transparent" id="navbarClose">
+                        <i data-feather="x" width="32" height="32"></i>
+                    </button>
+                </div>
+
+                <ul class="navbar-nav mr-auto d-flex align-items-center">
+                                            <li class="mr-lg-25">
+                            <div class="menu-category">
+                                <ul>
+                                    <li class="cursor-pointer user-select-none d-flex xs-categories-toggle">
+                                        <i data-feather="grid" width="20" height="20" class="mr-10 d-none d-lg-block"></i>
+                                        الاقسام
+
+                                        <ul class="cat-dropdown-menu">
+                                                                                            <li>
+                                                    <a href="../categories/%d8%aa%d8%b5%d9%85%d9%8a%d9%85.html">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="../store/1/default_images/categories_icons/feather.png" class="cat-dropdown-menu-icon mr-10" alt="تصميم icon">
+                                                            تصميم
+                                                        </div>
+
+                                                                                                            </a>
+
+                                                                                                    </li>
+                                                                                            <li>
+                                                    <a href="#!">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="../store/1/default_images/categories_icons/briefcase.png" class="cat-dropdown-menu-icon mr-10" alt="أكاديميون icon">
+                                                            أكاديميون
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" >
+                                                                                                                            <li><a href="../categories/%d8%a3%d9%83%d8%a7%d8%af%d9%8a%d9%85%d9%8a%d9%88%d9%86/%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a%d8%a7%d8%aa.html">رياضيات</a></li>
+                                                                                                                            <li><a href="../categories/%d8%a3%d9%83%d8%a7%d8%af%d9%8a%d9%85%d9%8a%d9%88%d9%86/%d8%b9%d9%84%d9%85.html">علم</a></li>
+                                                                                                                            <li><a href="../categories/%d8%a3%d9%83%d8%a7%d8%af%d9%8a%d9%85%d9%8a%d9%88%d9%86/%d9%84%d8%ba%d8%a9.html">لغة</a></li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li>
+                                                    <a href="../categories/%d8%a7%d9%84%d8%b5%d8%ad%d8%a9-%d9%88%d8%a7%d9%84%d9%84%d9%8a%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d8%a8%d8%af%d9%86%d9%8a%d8%a9.html">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="../store/1/default_images/categories_icons/heart.png" class="cat-dropdown-menu-icon mr-10" alt="الصحة واللياقة البدنية icon">
+                                                            الصحة واللياقة البدنية
+                                                        </div>
+
+                                                                                                            </a>
+
+                                                                                                    </li>
+                                                                                            <li>
+                                                    <a href="#!">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="../store/1/default_images/categories_icons/umbrella.png" class="cat-dropdown-menu-icon mr-10" alt="أسلوب الحياة icon">
+                                                            أسلوب الحياة
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" >
+                                                                                                                            <li><a href="../categories/%d8%a3%d8%b3%d9%84%d9%88%d8%a8-%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9/%d8%a3%d8%b3%d9%84%d9%88%d8%a8-%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9.html">أسلوب الحياة</a></li>
+                                                                                                                            <li><a href="../categories/%d8%a3%d8%b3%d9%84%d9%88%d8%a8-%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9/%d8%a7%d9%84%d8%ac%d9%85%d8%a7%d9%84-%d9%88%d8%a7%d9%84%d9%85%d9%83%d9%8a%d8%a7%d8%ac.html">الجمال والمكياج</a></li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li>
+                                                    <a href="../categories/%d8%aa%d8%b3%d9%88%d9%8a%d9%82.html">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="../store/1/default_images/categories_icons/pie-chart.png" class="cat-dropdown-menu-icon mr-10" alt="تسويق icon">
+                                                            تسويق
+                                                        </div>
+
+                                                                                                            </a>
+
+                                                                                                    </li>
+                                                                                            <li>
+                                                    <a href="#!">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="../store/1/default_images/categories_icons/anchor.png" class="cat-dropdown-menu-icon mr-10" alt="عمل icon">
+                                                            عمل
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" >
+                                                                                                                            <li><a href="../categories/%d8%b9%d9%85%d9%84/%d8%a5%d8%af%d8%a7%d8%b1%d8%a9.html">إدارة</a></li>
+                                                                                                                            <li><a href="../categories/%d8%b9%d9%85%d9%84/%d9%85%d8%ac%d8%a7%d9%84-%d8%a7%d9%84%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa.html">مجال الاتصالات</a></li>
+                                                                                                                            <li><a href="../categories/%d8%b9%d9%85%d9%84/%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84.html">استراتيجية العمل</a></li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li>
+                                                    <a href="#!">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="../store/1/default_images/categories_icons/code.png" class="cat-dropdown-menu-icon mr-10" alt="تطوير icon">
+                                                            تطوير
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" >
+                                                                                                                            <li><a href="../categories/%d8%aa%d8%b7%d9%88%d9%8a%d8%b1/%d8%aa%d8%b7%d9%88%d9%8a%d8%b1-%d8%a7%d9%84%d8%b4%d8%a8%d9%83%d8%a9.html">تطوير الشبكة</a></li>
+                                                                                                                            <li><a href="../categories/%d8%aa%d8%b7%d9%88%d9%8a%d8%b1/%d8%aa%d8%b7%d9%88%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84.html">تطوير المحمول</a></li>
+                                                                                                                            <li><a href="../categories/%d8%aa%d8%b7%d9%88%d9%8a%d8%b1/%d8%aa%d8%b7%d9%88%d9%8a%d8%b1-%d8%a7%d9%84%d9%84%d8%b9%d8%a8%d8%a9.html">تطوير اللعبة</a></li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                    </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    
+                                                                        <li class="nav-item">
+                                <a class="nav-link" href="../index.html">الصفحة الرئيسية</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link" href="../classes8676.html?sort=newest">الدورات</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link" href="../instructors.html">المدربين</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link" href="../blog.html">المدونات</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link" href="../contact.html">اتصل</a>
+                            </li>
+                                                            </ul>
+            </div>
+
+            <div class="nav-icons-or-start-live navbar-order">
+
+                <a href="../login.html" class="d-none d-lg-flex btn btn-sm btn-primary nav-start-a-live-btn">
+                    ابدأ فصل مباشر جديد
+                </a>
+
+                <a href="../login.html" class="d-flex d-lg-none text-primary nav-start-a-live-btn font-14">
+                    ابدأ فصل مباشر جديد
+                </a>
+
+                <div class="d-none nav-notify-cart-dropdown top-navbar ">
+                    <div class="dropdown">
+    <button type="button" disabled class="btn btn-transparent dropdown-toggle" id="navbarShopingCart" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+        <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+
+            </button>
+
+    <div class="dropdown-menu" aria-labelledby="navbarShopingCart">
+        <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+            <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+        </div>
+        <div class="h-100">
+            <div class="navbar-shopping-cart h-100" data-simplebar>
+                                    <div class="d-flex align-items-center text-center py-50">
+                        <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+                        <span class="">عربتك فارغة</span>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+                    <div class="border-left mx-15"></div>
+
+                    <div class="dropdown">
+    <button type="button" class="btn btn-transparent dropdown-toggle" disabled id="navbarNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+
+            </button>
+
+    <div class="dropdown-menu pt-20" aria-labelledby="navbarNotification">
+        <div class="d-flex flex-column h-100">
+            <div class="mb-auto navbar-notification-card" data-simplebar>
+                <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+                    <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+                </div>
+
+                                    <div class="d-flex align-items-center text-center py-50">
+                        <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+                        <span class="">الاشعارات الفارغة</span>
+                    </div>
+                
+            </div>
+
+                    </div>
+    </div>
+</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="course-cover-container not-active-special-offer">
+        <img src="../store/1015/6.jpg" class="img-cover course-cover-img" alt="تعلم لينكس في خمسة أيام"/>
+
+        <div class="cover-content pt-40">
+            <div class="container position-relative">
+                            </div>
+        </div>
+    </section>
+
+    <section class="container course-content-section webinar">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <div class="course-content-body user-select-none">
+                    <div class="course-body-on-cover text-white">
+                        <h1 class="font-30 course-title">
+                            تعلم لينكس في خمسة أيام
+                        </h1>
+                        <span class="d-block font-16 mt-10">In <a href="../categories/%d8%aa%d8%b7%d9%88%d9%8a%d8%b1/%d8%aa%d8%b7%d9%88%d9%8a%d8%b1-%d8%a7%d9%84%d8%b4%d8%a8%d9%83%d8%a9.html" target="_blank" class="font-weight-500 text-decoration-underline text-white">تطوير الشبكة</a></span>
+
+                        <div class="d-flex align-items-center">
+                            <div class="stars-card d-flex align-items-center  mt-15">
+                <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+                <i data-feather="star" width="20" height="20" class=""></i>
+    
+            <span class="badge badge-primary ml-10">4.00</span>
+    
+</div>
+                            <span class="ml-10 mt-15 font-14">(1 Ratings)</span>
+                        </div>
+
+                        <div class="mt-15">
+                            <span class="font-14">Created by</span>
+                            <a href="../users/1015/profile.html" target="_blank" class="text-decoration-underline text-white font-14 font-weight-500">Robert Ransdell</a>
+                        </div>
+
+                                                    
+                            <div class="mt-30 d-flex align-items-center">
+                                <div class="progress course-progress flex-grow-1 shadow-xs rounded-sm">
+                                    <span class="progress-bar rounded-sm bg-warning" style="width: 50%"></span>
+                                </div>
+
+                                <span class="ml-15 font-14 font-weight-500">
+                                                                                                                        5/10 طلاب
+                                                                                                        </span>
+                            </div>
+                                            </div>
+
+                    <div class=" mt-35 ">
+                        <ul class="nav nav-tabs bg-secondary rounded-sm p-15 d-flex align-items-center justify-content-between" id="tabs-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="position-relative font-14 text-white active" id="information-tab"
+                                   data-toggle="tab" href="#information" role="tab" aria-controls="information"
+                                   aria-selected="true">معلومات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="position-relative font-14 text-white " id="content-tab" data-toggle="tab"
+                                   href="#content" role="tab" aria-controls="content"
+                                   aria-selected="false">محتوي (6)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="position-relative font-14 text-white " id="reviews-tab" data-toggle="tab"
+                                   href="#reviews" role="tab" aria-controls="reviews"
+                                   aria-selected="false">مراجعات (1)</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active " id="information" role="tabpanel"
+                                 aria-labelledby="information-tab">
+                                <div class="mt-20">
+        <h2 class="section-title after-line">عن هذا الفصل</h2>
+        <div class="mt-15 course-description">
+            <p style="text-align:right;">إذا كنت تريد معرفة كيفية استخدام Linux والارتقاء بمستوى حياتك المهنية ولكنك مضغوط للوقت ، فتابع القراءة. أهلا. اسمي جيسون كانون وأنا مؤلف Linux للمبتدئين وكذلك مؤسس أكاديمية تدريب Linux. عندما أطلب من الناس أن يخبروني ما هو التحدي الأكبر الذي يواجههم في تعلم Linux ، فإنهم جميعًا يقولون نفس الشيء: الوقت.</p>
+
+<p style="text-align:right;">لهذا السبب قمت بإنشاء هذه الدورة. أعطني 45 دقيقة فقط يوميًا لمدة 5 أيام قادمة وسأعلمك بالضبط ما تحتاج إلى معرفته حول نظام التشغيل Linux. ستتعلم أهم المفاهيم والأوامر ، وسأرشدك خطوة بخطوة عبر العديد من الأمثلة العملية والواقعية.</p>
+
+<p style="text-align:right;">لذا ، إذا كان بإمكانك تخصيص بضع دقائق يوميًا وترغب في معرفة تفاصيل نظام التشغيل Linux ، فقم بالانضمام إلي والطلاب الآخرين في هذه الدورة التدريبية اليوم.</p>
+
+<p style="text-align:right;">مكافأة مجانية - كيفية تثبيت WordPress على نظام Linux الخاص بك</p>
+
+<p style="text-align:right;">كمكافأة إضافية للتسجيل في دورة فيديو Learn Linux in 5 Days التدريبية ، ستتلقى قائمة تحقق خطوة بخطوة وفيديو يعلمك كيفية تثبيت WordPress على نظام Ubuntu Linux. أولاً ، ستتعرف على البرنامج المطلوب لتشغيل WordPress على نظام Linux. بعد ذلك ، ستحصل على الأوامر الدقيقة لكتابة تثبيت جميع البرامج المطلوبة و WordPress.</p>
+
+<p style="text-align:right;">ستتعلم كيفية تثبيت خادم الويب ، وكيفية تثبيت خادم قاعدة البيانات ، وكيفية إنشاء مستخدمي قاعدة البيانات ، وكيفية تكوين WordPress. قبل أن تعرف ذلك ، سيكون لديك مدونة تعمل بكامل طاقتها بين يديك. هذه طريقة رائعة لاستخدام مهارات Linux الجديدة الخاصة بك بشكل جيد. اختياري تمامًا ، ولكنه رائع جدًا: إذا كنت ترغب في استضافة مدونتك على الإنترنت على تثبيت نظام Linux الخاص بك ، فسأوضح أنه يمكنك الحصول على استضافة مقابل 5 دولارات فقط شهريًا.</p>
+
+<p style="text-align:right;"><br></p>
+
+<p style="text-align:right;">____________________</p>
+
+<p style="text-align:right;"><br></p>
+
+<p style="text-align:right;">لا تقدم Learn Linux in 5 Days أي افتراضات حول خلفيتك أو معرفتك بنظام Linux. لا تحتاج إلى معرفة مسبقة للاستفادة من هذه الدورة. سيتم إرشادك خطوة بخطوة باستخدام نهج منطقي ومنظم. عند مواجهة المفاهيم أو الأوامر أو المصطلحات الجديدة يتم شرحها بلغة واضحة ، مما يسهل على أي شخص فهمها. إليك ما ستتعلمه من خلال تعلم Linux في 5 أيام:</p>
+
+<p style="text-align:right;"><br></p>
+
+<p style="text-align:right;">• كيفية الوصول إلى خادم Linux إذا لم تقم بذلك بالفعل.</p>
+
+<p style="text-align:right;"><br></p>
+
+<p style="text-align:right;">• ما هي توزيعة Linux وأيها تختار.</p>
+
+<p style="text-align:right;"><br></p>
+
+<p style="text-align:right;">• ما هي البرامج المطلوبة للاتصال بـ Linux من أجهزة كمبيوتر Mac و Windows.</p>
+
+<p style="text-align:right;"><br></p>
+
+<p style="text-align:right;">• ما هو SSH وكيفية استخدامه.</p>
+
+<p style="text-align:right;"><br></p>
+
+<p style="text-align:right;">• تخطيط نظام الملفات لأنظمة Linux ومكان العثور على البرامج والتكوينات والوثائق.</p>
+
+<p style="text-align:right;">• أوامر Linux الأساسية التي ستستخدمها في أغلب الأحيان.</p>
+
+<p style="text-align:right;">• إنشاء وإعادة تسمية ونقل وحذف الدلائل.</p>
+
+<p style="text-align:right;">• إدراج الملفات وقراءتها وإنشاءها وتحريرها ونسخها وحذفها.</p>
+
+<p style="text-align:right;">• كيفية عمل الأذونات بالضبط وكيفية فك تشفير أذونات Linux الأكثر تشفيرًا بسهولة.</p>
+
+<p style="text-align:right;">• كيفية استخدام محررات nano و vi و emacs.</p>
+
+<p style="text-align:right;">• طريقتان للبحث عن الملفات والأدلة.</p>
+
+<p style="text-align:right;">• كيفية مقارنة محتويات الملفات.</p>
+
+<p style="text-align:right;">• ما هي الأنابيب ولماذا هي مفيدة وكيفية استخدامها.</p>
+
+<p style="text-align:right;">• كيفية ضغط الملفات لتوفير المساحة وتسهيل نقل البيانات.</p>
+
+<p style="text-align:right;">• كيف ولماذا يتم إعادة توجيه المدخلات والمخرجات من التطبيقات.</p>
+
+<p style="text-align:right;">• كيفية تخصيص موجه شل الخاص بك.</p>
+
+<p style="text-align:right;">• كيف تكون فعالاً في سطر الأوامر باستخدام الأسماء المستعارة وإكمال علامات التبويب وسجل shell الخاص بك.</p>
+
+<p style="text-align:right;">• كيفية جدولة المهام وأتمتتها باستخدام cron.</p>
+
+<p style="text-align:right;">• كيفية تبديل المستخدمين وتشغيل العمليات مثل الآخرين.</p>
+
+<p style="text-align:right;">• كيفية البحث عن البرامج وتثبيتها.</p>
+
+<p style="text-align:right;">• ضمان استرداد الأموال لمدة 30 يومًا من Udemy غير المشروط - هذا وعد شخصي لنجاحك!</p>
+
+<p style="text-align:right;">ما تتعلمه في Learn Linux in 5 Days ينطبق على أي بيئة Linux بما في ذلك Ubuntu و Debian و Kali Linux و Linux Mint و RedHat و Fedora و OpenSUSE و Slackware والمزيد.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="mt-20">
+        <h2 class="section-title after-line">FAQ</h2>
+
+        <div class="accordion-content-wrapper mt-15" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="accordion-row rounded-sm shadow-lg border mt-20 py-20 px-35">
+                    <div class="font-weight-bold font-14 text-secondary" role="tab" id="faq_18">
+                        <div href="#collapseFaq18" aria-controls="collapseFaq18" class="d-flex align-items-center justify-content-between" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">
+                            <span>What is the course level???</span>
+                            <i class="collapse-chevron-icon" data-feather="chevron-down" width="25" class="text-gray"></i>
+                        </div>
+                    </div>
+                    <div id="collapseFaq18" aria-labelledby="faq_18" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse text-gray">
+                            This is a course for beginners so you will get familiar with the topic from scratch.
+                        </div>
+                    </div>
+                </div>
+                            <div class="accordion-row rounded-sm shadow-lg border mt-20 py-20 px-35">
+                    <div class="font-weight-bold font-14 text-secondary" role="tab" id="faq_19">
+                        <div href="#collapseFaq19" aria-controls="collapseFaq19" class="d-flex align-items-center justify-content-between" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">
+                            <span>How can I get course updates??</span>
+                            <i class="collapse-chevron-icon" data-feather="chevron-down" width="25" class="text-gray"></i>
+                        </div>
+                    </div>
+                    <div id="collapseFaq19" aria-labelledby="faq_19" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse text-gray">
+                            You will receive a notification after each update is released so you can download updated files from the course page.
+                        </div>
+                    </div>
+                </div>
+                            <div class="accordion-row rounded-sm shadow-lg border mt-20 py-20 px-35">
+                    <div class="font-weight-bold font-14 text-secondary" role="tab" id="faq_20">
+                        <div href="#collapseFaq20" aria-controls="collapseFaq20" class="d-flex align-items-center justify-content-between" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">
+                            <span>Is it a supported course??</span>
+                            <i class="collapse-chevron-icon" data-feather="chevron-down" width="25" class="text-gray"></i>
+                        </div>
+                    </div>
+                    <div id="collapseFaq20" aria-labelledby="faq_20" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse text-gray">
+                            Yes, you can get in touch with the instructor using the support system.
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+
+
+
+<div class="mt-35">
+    <h2 class="section-title after-line">التعليقات <span class="ml-5">(0)</span></h2>
+
+    <div class="mt-20">
+        <form action="https://lms.rocket-soft.org/comments/store" method="post">
+
+            <input type="hidden" name="_token" value=" kra4XJXSDfBxUwat9nsXOrCUvfUSfuhAEdyDVWhC">
+            <input type="hidden" id="commentItemId" name="item_id" value="1996">
+            <input type="hidden" id="commentItemName" name="item_name" value="webinar_id">
+
+            <div class="form-group">
+                <textarea name="comment" class="form-control " rows="10"></textarea>
+                <div class="invalid-feedback"></div>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">نشر تعليق</button>
+        </form>
+    </div>
+
+    
+                </div>
+
+
+                            </div>
+                            <div class="tab-pane fade " id="content" role="tabpanel" aria-labelledby="content-tab">
+                                <section class="mt-20">
+        
+                    <div class="row">
+    <div class="col-12">
+        <div class="accordion-content-wrapper" id="chaptersAccordionsessions" role="tablist" aria-multiselectable="true">
+                            <div class="accordion-row rounded-sm border mt-20 p-15">
+                    <div class="d-flex align-items-center justify-content-between" role="tab" id="chapter_22">
+                        <div class="js-chapter-collapse-toggle d-flex align-items-center" href="#collapseChapter22" aria-controls="collapseChapter22" data-parent="#chaptersAccordionsessions" role="button" data-toggle="collapse" aria-expanded="true">
+                            <span class="chapter-icon mr-15">
+                                <i data-feather="grid" class=""></i>
+                            </span>
+
+                            <span class="font-weight-bold text-secondary font-14">Overview</span>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <span class="mr-15 font-14 text-gray">
+                                1 Parts
+
+                                                                    - 1:30 Hr
+                                                            </span>
+
+                            <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseChapter22" aria-controls="collapseChapter22" data-parent="#chaptersAccordionsessions" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                        </div>
+                    </div>
+
+                    <div id="collapseChapter22" aria-labelledby="chapter_22" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse">
+                                                            <div class="row">
+    <div class="col-12">
+        <div class="accordion-content-wrapper" id="sessionsAccordion" role="tablist" aria-multiselectable="true">
+                            <div class="accordion-row rounded-sm border mt-20 p-15">
+                    <div class="d-flex align-items-center justify-content-between" role="tab" id="session_52">
+                        <div class="d-flex align-items-center" href="#collapseSession52" aria-controls="collapseSession52" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true">
+                                                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20231004T043000Z/20231004T043000Z&amp;text=Day+1" target="_blank" class="mr-15 d-flex" data-toggle="tooltip" data-placement="top" title="Add to Calendar">
+                                    <span class="chapter-icon chapter-content-icon">
+                                    <i data-feather="bell" width="20" height="20" class="text-gray"></i>
+                                    </span>
+                                </a>
+                                                        <span class="font-weight-bold text-secondary font-14">Day 1</span>
+                        </div>
+
+                        <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseSession52" aria-controls="collapseSession52" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                    </div>
+
+                    <div id="collapseSession52" aria-labelledby="session_52" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse">
+                            <div class="text-gray">
+                                <p>In this lesson you will learn:What Linux is and Brief history of Linux</p>
+                            </div>
+
+                            
+                            <div class="d-flex align-items-center justify-content-between mt-20">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="clock" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">1:30 ساعات</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="calendar" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">4 Oct 2023 | 04:30</span>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                                                            <button type="button" class="course-content-btns btn btn-sm btn-gray disabled flex-grow-1 disabled not-login-toast">Go to Class</button>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div>
+                            
+                                                    </div>
+                    </div>
+                </div>
+                            <div class="accordion-row rounded-sm border mt-20 p-15">
+                    <div class="d-flex align-items-center justify-content-between" role="tab" id="chapter_23">
+                        <div class="js-chapter-collapse-toggle d-flex align-items-center" href="#collapseChapter23" aria-controls="collapseChapter23" data-parent="#chaptersAccordionsessions" role="button" data-toggle="collapse" aria-expanded="true">
+                            <span class="chapter-icon mr-15">
+                                <i data-feather="grid" class=""></i>
+                            </span>
+
+                            <span class="font-weight-bold text-secondary font-14">Start learning</span>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <span class="mr-15 font-14 text-gray">
+                                4 Parts
+
+                                                                    - 6:00 Hr
+                                                            </span>
+
+                            <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseChapter23" aria-controls="collapseChapter23" data-parent="#chaptersAccordionsessions" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                        </div>
+                    </div>
+
+                    <div id="collapseChapter23" aria-labelledby="chapter_23" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse">
+                                                            <div class="row">
+    <div class="col-12">
+        <div class="accordion-content-wrapper" id="sessionsAccordion" role="tablist" aria-multiselectable="true">
+                            <div class="accordion-row rounded-sm border mt-20 p-15">
+                    <div class="d-flex align-items-center justify-content-between" role="tab" id="session_53">
+                        <div class="d-flex align-items-center" href="#collapseSession53" aria-controls="collapseSession53" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true">
+                                                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20231006T043000Z/20231006T043000Z&amp;text=Day+2" target="_blank" class="mr-15 d-flex" data-toggle="tooltip" data-placement="top" title="Add to Calendar">
+                                    <span class="chapter-icon chapter-content-icon">
+                                    <i data-feather="bell" width="20" height="20" class="text-gray"></i>
+                                    </span>
+                                </a>
+                                                        <span class="font-weight-bold text-secondary font-14">Day 2</span>
+                        </div>
+
+                        <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseSession53" aria-controls="collapseSession53" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                    </div>
+
+                    <div id="collapseSession53" aria-labelledby="session_53" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse">
+                            <div class="text-gray">
+                                <p>In this lesson you will learn about the Linux directory structure. You'll learn where different components of the operating system are located. You'll also learn how applications can employ the same conventions for their directory structures.</p>
+                            </div>
+
+                            
+                            <div class="d-flex align-items-center justify-content-between mt-20">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="clock" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">1:30 ساعات</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="calendar" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">6 Oct 2023 | 04:30</span>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                                                            <button type="button" class="course-content-btns btn btn-sm btn-gray disabled flex-grow-1 disabled not-login-toast">Go to Class</button>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="accordion-row rounded-sm border mt-20 p-15">
+                    <div class="d-flex align-items-center justify-content-between" role="tab" id="session_54">
+                        <div class="d-flex align-items-center" href="#collapseSession54" aria-controls="collapseSession54" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true">
+                                                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20231008T063000Z/20231008T063000Z&amp;text=Day+3" target="_blank" class="mr-15 d-flex" data-toggle="tooltip" data-placement="top" title="Add to Calendar">
+                                    <span class="chapter-icon chapter-content-icon">
+                                    <i data-feather="bell" width="20" height="20" class="text-gray"></i>
+                                    </span>
+                                </a>
+                                                        <span class="font-weight-bold text-secondary font-14">Day 3</span>
+                        </div>
+
+                        <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseSession54" aria-controls="collapseSession54" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                    </div>
+
+                    <div id="collapseSession54" aria-labelledby="session_54" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse">
+                            <div class="text-gray">
+                                <p>In this lesson you will learn various commands that can be used to view files as well as how to use the nano text editor.</p>
+                            </div>
+
+                            
+                            <div class="d-flex align-items-center justify-content-between mt-20">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="clock" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">1:30 ساعات</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="calendar" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">8 Oct 2023 | 06:30</span>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                                                            <button type="button" class="course-content-btns btn btn-sm btn-gray disabled flex-grow-1 disabled not-login-toast">Go to Class</button>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="accordion-row rounded-sm border mt-20 p-15">
+                    <div class="d-flex align-items-center justify-content-between" role="tab" id="session_55">
+                        <div class="d-flex align-items-center" href="#collapseSession55" aria-controls="collapseSession55" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true">
+                                                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20231010T103000Z/20231010T103000Z&amp;text=Day+4" target="_blank" class="mr-15 d-flex" data-toggle="tooltip" data-placement="top" title="Add to Calendar">
+                                    <span class="chapter-icon chapter-content-icon">
+                                    <i data-feather="bell" width="20" height="20" class="text-gray"></i>
+                                    </span>
+                                </a>
+                                                        <span class="font-weight-bold text-secondary font-14">Day 4</span>
+                        </div>
+
+                        <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseSession55" aria-controls="collapseSession55" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                    </div>
+
+                    <div id="collapseSession55" aria-labelledby="session_55" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse">
+                            <div class="text-gray">
+                                <p>This lesson will cover how to delete, copy, move, and rename files in Linux.</p>
+                            </div>
+
+                            
+                            <div class="d-flex align-items-center justify-content-between mt-20">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="clock" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">1:30 ساعات</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="calendar" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">10 Oct 2023 | 10:30</span>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                                                            <button type="button" class="course-content-btns btn btn-sm btn-gray disabled flex-grow-1 disabled not-login-toast">Go to Class</button>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="accordion-row rounded-sm border mt-20 p-15">
+                    <div class="d-flex align-items-center justify-content-between" role="tab" id="session_56">
+                        <div class="d-flex align-items-center" href="#collapseSession56" aria-controls="collapseSession56" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true">
+                                                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20231014T083000Z/20231014T083000Z&amp;text=Day+5" target="_blank" class="mr-15 d-flex" data-toggle="tooltip" data-placement="top" title="Add to Calendar">
+                                    <span class="chapter-icon chapter-content-icon">
+                                    <i data-feather="bell" width="20" height="20" class="text-gray"></i>
+                                    </span>
+                                </a>
+                                                        <span class="font-weight-bold text-secondary font-14">Day 5</span>
+                        </div>
+
+                        <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseSession56" aria-controls="collapseSession56" data-parent="#sessionsAccordion" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                    </div>
+
+                    <div id="collapseSession56" aria-labelledby="session_56" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse">
+                            <div class="text-gray">
+                                <p>In this lesson you will learn how to display information about running programs and processes. You will also learn how to control the behavior of processes, including running processes in the background and terminating processes.</p>
+                            </div>
+
+                            
+                            <div class="d-flex align-items-center justify-content-between mt-20">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="clock" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">1:30 ساعات</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                        <i data-feather="calendar" width="18" height="18" class="text-gray mr-5"></i>
+                                        <span class="line-height-1">14 Oct 2023 | 08:30</span>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                                                            <button type="button" class="course-content-btns btn btn-sm btn-gray disabled flex-grow-1 disabled not-login-toast">Go to Class</button>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div>
+                            
+                                                    </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div>
+            </section>
+
+
+
+
+
+
+    <section class="">
+        <div class="row">
+    <div class="col-12">
+        <div class="accordion-content-wrapper" id="quizzesAccordion" role="tablist" aria-multiselectable="true">
+                            <div class="accordion-row rounded-sm border mt-20 p-15">
+                    <div class="d-flex align-items-center justify-content-between" role="tab" id="quiz_34">
+                        <div class="d-flex align-items-center" href="#collapseQuiz34" aria-controls="collapseQuiz34" data-parent="#quizzesAccordion" role="button" data-toggle="collapse" aria-expanded="true">
+                            <span class="mr-15 d-flex">
+                                <span class="chapter-icon chapter-content-icon">
+                                <i data-feather="file-text" width="20" height="20" class="text-gray"></i>
+                                </span>
+                            </span>
+
+                            <div class="">
+                                <span class="font-weight-bold font-14 text-secondary d-block">Final Quiz</span>
+                            </div>
+                        </div>
+
+                        <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseQuiz34" aria-controls="collapseQuiz34" data-parent="#quizzesAccordion" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                    </div>
+
+                    <div id="collapseQuiz34" aria-labelledby="quiz_34" class=" collapse" role="tabpanel">
+                        <div class="panel-collapse">
+                            <div class="d-flex align-items-center mt-20">
+                                <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                    <i data-feather="help-circle" width="18" height="18" class="text-gray mr-5"></i>
+                                    <span class="line-height-1">5 Questions</span>
+                                </div>
+
+                                <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                    <i data-feather="clock" width="18" height="18" class="text-gray mr-5"></i>
+                                    <span class="line-height-1">5 Min</span>
+                                </div>
+
+                                <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                    <i data-feather="check-square" width="18" height="18" class="text-gray mr-5"></i>
+                                    <span class="line-height-1">Passed grade: 70/100</span>
+                                </div>
+
+                                <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                    <i data-feather="check-square" width="18" height="18" class="text-gray mr-5"></i>
+                                    <span class="line-height-1">Attempts: 0/3</span>
+                                </div>
+
+                                
+                            </div>
+
+                            <div class="d-flex justify-content-end mt-20">
+                                                                    <button type="button" class="course-content-btns btn btn-sm btn-gray disabled not-login-toast">
+                                        ابدأ الاختبار
+                                    </button>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div>
+    </section>
+
+
+    <section class="">
+        <div class="row">
+    <div class="col-12">
+        <div class="accordion-content-wrapper" id="certificateAccordion" role="tablist" aria-multiselectable="true">
+                                                <div class="accordion-row rounded-sm border mt-20 p-15">
+                        <div class="d-flex align-items-center justify-content-between" role="tab" id="quizCertificate_34">
+
+                            <div class="d-flex align-items-center" href="#collapseQuizCertificate34" aria-controls="collapseQuizCertificate34" data-parent="#certificateAccordion" role="button" data-toggle="collapse" aria-expanded="true">
+                                    <span class="chapter-icon chapter-content-icon mr-15">
+                                        <i data-feather="award" width="20" height="20" class="text-gray"></i>
+                                    </span>
+
+                                <span class="font-weight-bold font-14 text-secondary d-block">Final Quiz</span>
+                            </div>
+
+                            <i class="collapse-chevron-icon" data-feather="chevron-down" height="20" href="#collapseQuizCertificate34" aria-controls="collapseQuizCertificate34" data-parent="#certificateAccordion" role="button" data-toggle="collapse" aria-expanded="true"></i>
+                        </div>
+
+                        <div id="collapseQuizCertificate34" aria-labelledby="quizCertificate_34" class=" collapse" role="tabpanel">
+                            <div class="panel-collapse">
+                                <div class="d-flex align-items-center justify-content-between mt-20">
+                                    <div class="d-flex align-items-center">
+                                        
+                                        <div class="d-flex align-items-center text-gray text-center font-14 mr-20">
+                                            <i data-feather="check-square" width="18" height="18" class="text-gray mr-5"></i>
+                                            <span class="line-height-1">Passed grade: 70/100</span>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                                                                    <button type="button" class="course-content-btns btn btn-sm btn-gray disabled not-login-toast">
+                                                تنزيل
+                                            </button>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+    </div>
+</div>
+    </section>
+                            </div>
+                            <div class="tab-pane fade " id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                                <div class="mt-35">
+    <div class="course-reviews-box row align-items-center">
+        <div class="col-3 text-center">
+            <div class="reviews-rate font-36 font-weight-bold text-primary">4.00</div>
+
+            <div class="text-center">
+                <div class="stars-card d-flex align-items-center justify-content-center mt-0">
+                <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+                <i data-feather="star" width="20" height="20" class=""></i>
+    
+    
+</div>
+                <div class="mt-15">1  مراجعات</div>
+            </div>
+        </div>
+
+        <div class="col-9">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="progress course-progress flex-grow-1 rounded-sm">
+                    <span class="progress-bar rounded-sm" style="width: 80%"></span>
+                </div>
+                <span class="ml-15 font-14 text-gray">جودة المحتوي (4)</span>
+            </div>
+
+            <div class="mt-25 d-flex align-items-center justify-content-between">
+                <div class="progress course-progress flex-grow-1 rounded-sm">
+                    <span class="progress-bar rounded-sm" style="width: 80%"></span>
+                </div>
+                <span class="ml-15 font-14 text-gray">مهارات المعلم (4)</span>
+            </div>
+
+            <div class="mt-25 d-flex align-items-center justify-content-between">
+                <div class="progress course-progress flex-grow-1 rounded-sm">
+                    <span class="progress-bar rounded-sm" style="width: 80%"></span>
+                </div>
+                <span class="ml-15 font-14 text-gray">قيمة الشراء (4)</span>
+            </div>
+
+            <div class="mt-25 d-flex align-items-center justify-content-between">
+                <div class="progress course-progress flex-grow-1 rounded-sm">
+                    <span class="progress-bar rounded-sm" style="width: 80%"></span>
+                </div>
+                <span class="ml-15 font-14 text-gray">جودة الدعم (4)</span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<section class="mt-40">
+    <h2 class="section-title after-line">مراجعات (1)</h2>
+
+    <form action="https://lms.rocket-soft.org/reviews/store" class="mt-20" method="post">
+        <input type="hidden" name="_token" value="kra4XJXSDfBxUwat9nsXOrCUvfUSfuhAEdyDVWhC">
+        <input type="hidden" name="webinar_id" value="1996"/>
+
+        <div class="form-group">
+            <textarea name="description" class="form-control" rows="10"></textarea>
+        </div>
+
+        <div class="reviews-stars row align-items-center">
+
+            <div class="col-6 col-md-3 d-flex flex-column align-items-center justify-content-center barrating-stars">
+                <span class="font-14 text-gray">جودة المحتوي</span>
+                <select name="content_quality" data-rate="1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="col-6 col-md-3 d-flex flex-column align-items-center justify-content-center barrating-stars">
+                <span class="font-14 text-gray">مهارات المعلم</span>
+                <select name="instructor_skills" data-rate="1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="col-6 col-md-3 d-flex flex-column align-items-center justify-content-center barrating-stars">
+                <span class="font-14 text-gray">قيمة الشراء</span>
+                <select name="purchase_worth" data-rate="1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="col-6 col-md-3 d-flex flex-column align-items-center justify-content-center barrating-stars">
+                <span class="font-14 text-gray">جودة الدعم</span>
+                <select name="support_quality" data-rate="1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-sm btn-primary mt-20">نشر مراجعة</button>
+    </form>
+
+    <div class="mt-45">
+                    
+                <div class="comments-card shadow-lg rounded-sm border px-20 py-15 mt-30" data-address="/reviews/store-reply-comment" data-csrf="kra4XJXSDfBxUwat9nsXOrCUvfUSfuhAEdyDVWhC" data-id="23">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="user-inline-avatar d-flex align-items-center mt-10">
+                            <div class="avatar">
+                                <img src="../store/996/avatar/617a4ea0d77af.png" class="img-cover" alt="">
+                            </div>
+                            <div class="d-flex flex-column ml-5">
+                                <span class="font-weight-500 text-secondary">Robert B. Gray</span>
+
+                                <div class="stars-card d-flex align-items-center justify-content-start mt-0">
+                <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+                <i data-feather="star" width="20" height="20" class=""></i>
+    
+    
+</div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <span class="font-12 text-gray mr-10">13 Jul 2021 | 18:18</span>
+
+                            <div class="btn-group dropdown table-actions">
+                                <button type="button" class="btn-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i data-feather="more-vertical" height="20"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="../reviews/store-reply-commnet.html" class="webinar-actions d-block text-hover-primary reply-comment">رد</a>
+                                    <a href="#" class="webinar-actions d-block mt-10 text-hover-primary">ابلاغ</a>
+
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-20 text-gray font-14">
+                        It&#039;s a nice course for who is new in Linux distribution. You may take this course for Basic Linux Literacy. Thanks to honourable instructor
+                    </div>
+
+                                    </div>
+                        </div>
+</section>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-content-sidebar col-12 col-lg-4 mt-25 mt-lg-0">
+                <div class="rounded-lg shadow-sm">
+                    <div class="course-img has-video">
+
+                        <img src="../store/1015/hero%20(6).jpg" class="img-cover" alt="">
+
+                                                    <div id="webinarDemoVideoBtn"
+                                 data-video-path="/store/1015/Learn Linux In 5 Days.mp4"
+                                 data-video-source=""
+                                 class="course-video-icon cursor-pointer d-flex align-items-center justify-content-center">
+                                <i data-feather="play" width="25" height="25"></i>
+                            </div>
+                                            </div>
+
+                    <div class="px-20 pb-30">
+                        <form action="https://lms.rocket-soft.org/cart/store" method="post">
+                            <input type="hidden" name="_token" value="kra4XJXSDfBxUwat9nsXOrCUvfUSfuhAEdyDVWhC">
+                            <input type="hidden" name="webinar_id" value="1996">
+
+                                                                                        
+                                                            <div class="d-flex align-items-center justify-content-center mt-20">
+                                    <span class="font-36 text-primary">Free</span>
+                                </div>
+                            
+                            
+                            <div class="mt-20 d-flex flex-column">
+                                                                    <a href="#" class="btn btn-primary  disabled ">Enroll on Class</a>
+                                                            </div>
+
+                        </form>
+
+                        <div class="mt-20 d-flex align-items-center justify-content-center text-gray">
+                            <i data-feather="thumbs-up" width="20" height="20"></i>
+                            <span class="ml-5 font-14">ضمان 5 ايام لاتسرداد الاموال</span>
+                        </div>
+
+                        <div class="mt-35">
+                            <strong class="d-block text-secondary font-weight-bold">This جلسة مباشر includes:</strong>
+                            
+                                                            <div class="mt-20 d-flex align-items-center text-gray">
+                                    <i data-feather="award" width="20" height="20"></i>
+                                    <span class="ml-5 font-14 font-weight-500">شهادة رسمية</span>
+                                </div>
+                            
+                                                            <div class="mt-20 d-flex align-items-center text-gray">
+                                    <i data-feather="file-text" width="20" height="20"></i>
+                                    <span class="ml-5 font-14 font-weight-500">1 اختبارات اونلاين</span>
+                                </div>
+                            
+                                                            <div class="mt-20 d-flex align-items-center text-gray">
+                                    <i data-feather="headphones" width="20" height="20"></i>
+                                    <span class="ml-5 font-14 font-weight-500">دعم المعلم</span>
+                                </div>
+                                                    </div>
+
+                        <div class="mt-40 p-10 rounded-sm border row align-items-center favorites-share-box">
+                                                            <div class="col">
+                                    <a href="../../accounts.google.com/ServiceLogin27c3.html?action=TEMPLATE&amp;dates=20210709T153000Z/20210709T153000Z&amp;text=%D8%AA%D8%B9%D9%84%D9%85+%D9%84%D9%8A%D9%86%D9%83%D8%B3+%D9%81%D9%8A+%D8%AE%D9%85%D8%B3%D8%A9+%D8%A3%D9%8A%D8%A7%D9%85" target="_blank" class="d-flex flex-column align-items-center text-center text-gray">
+                                        <i data-feather="calendar" width="20" height="20"></i>
+                                        <span class="font-12">Reminder</span>
+                                    </a>
+                                </div>
+                            
+                            <div class="col">
+                                <a href="../login.html" id="favoriteToggle" class="d-flex flex-column align-items-center text-gray">
+                                    <i data-feather="heart" class="" width="20" height="20"></i>
+                                    <span class="font-12">مفضلة</span>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#" class="js-share-course d-flex flex-column align-items-center text-gray">
+                                    <i data-feather="share-2" width="20" height="20"></i>
+                                    <span class="font-12">Share</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-30 text-center">
+                            <button type="button" id="webinarReportBtn" class="font-14 text-gray btn-transparent">الابلاغ عن هذا الجلسة</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="rounded-lg shadow-sm mt-35 px-25 py-20">
+                    <h3 class="sidebar-title font-16 text-secondary font-weight-bold">جلسة مباشر المواصفات</h3>
+
+                    <div class="mt-30">
+                                                    <div class="mt-20 d-flex align-items-center justify-content-between text-gray">
+                                <div class="d-flex align-items-center">
+                                    <i data-feather="calendar" width="20" height="20"></i>
+                                    <span class="ml-5 font-14 font-weight-500">Start Date:</span>
+                                </div>
+                                <span class="font-14">9 Jul 2021 | 15:30</span>
+                            </div>
+
+                            <div class="mt-20 d-flex align-items-center justify-content-between text-gray">
+                                <div class="d-flex align-items-center">
+                                    <i data-feather="user" width="20" height="20"></i>
+                                    <span class="ml-5 font-14 font-weight-500">Capacity:</span>
+                                </div>
+                                <span class="font-14">10 طلاب</span>
+                            </div>
+                        
+                        <div class="mt-20 d-flex align-items-center justify-content-between text-gray">
+                            <div class="d-flex align-items-center">
+                                <i data-feather="clock" width="20" height="20"></i>
+                                <span class="ml-5 font-14 font-weight-500">Duration:</span>
+                            </div>
+                            <span class="font-14">7:30 ساعات</span>
+                        </div>
+
+                        <div class="mt-20 d-flex align-items-center justify-content-between text-gray">
+                            <div class="d-flex align-items-center">
+                                <i data-feather="users" width="20" height="20"></i>
+                                <span class="ml-5 font-14 font-weight-500">طلاب:</span>
+                            </div>
+                            <span class="font-14">5</span>
+                        </div>
+
+                                                    <div class="mt-20 d-flex align-items-center justify-content-between text-gray">
+                                <div class="d-flex align-items-center">
+                                    <img src="../assets/default/img/icons/sessions.svg" width="20" alt="">
+                                    <span class="ml-5 font-14 font-weight-500">Sessions:</span>
+                                </div>
+                                <span class="font-14">5</span>
+                            </div>
+                        
+                        
+                                            </div>
+                </div>
+
+                
+                                
+                <div class="rounded-lg shadow-sm mt-35 p-20 course-teacher-card d-flex align-items-center flex-column">
+
+    
+    <div class="teacher-avatar mt-5">
+        <img src="../store/1015/avatar/617a4f2fb8a6d.png" class="img-cover" alt="Robert Ransdell">
+
+                    <span class="user-circle-badge has-verified d-flex align-items-center justify-content-center">
+                <i data-feather="check" width="20" height="20" class="text-white"></i>
+            </span>
+            </div>
+    <h3 class="mt-10 font-16 font-weight-bold text-secondary">Robert Ransdell</h3>
+    <span class="mt-5 font-14 font-weight-500 text-gray text-center">System Administrator at Amazon</span>
+
+    <div class="stars-card d-flex align-items-center  mt-15">
+                <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+            <i data-feather="star" width="20" height="20" class="active"></i>
+                <i data-feather="star" width="20" height="20" class=""></i>
+    
+            <span class="badge badge-primary ml-10">4.69</span>
+    
+</div>
+
+    <div class="user-reward-badges d-flex align-items-center mt-30">
+                    <div class="mr-15" data-toggle="tooltip" data-placement="bottom" data-html="true" title="1 Year of Membership">
+                <img src="../store/1/default_images/badges/faithful_user.png" width="32" height="32" alt="Faithful User">
+            </div>
+                    <div class="mr-15" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Has 3 to 6 Classes">
+                <img src="../store/1/default_images/badges/expert_vendor.png" width="32" height="32" alt="Expert Vendor">
+            </div>
+                    <div class="mr-15" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Classes Rating from 4 to 5">
+                <img src="../store/1/default_images/badges/golden_classes.png" width="32" height="32" alt="Golden Classes">
+            </div>
+                    <div class="mr-15" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Classes Sales from 10 to 20">
+                <img src="../store/1/default_images/badges/king_seller.png" width="32" height="32" alt="King Seller">
+            </div>
+                    <div class="mr-15" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Support Rating from 4 to 5">
+                <img src="../store/1/default_images/badges/fantastic_support.png" width="32" height="32" alt="Fantastic Support">
+            </div>
+            </div>
+
+    
+    <div class="mt-25 d-flex flex-row align-items-center justify-content-center w-100">
+        <a href="../users/1015/profile.html" target="_blank" class="btn btn-sm btn-primary teacher-btn-action">Profile</a>
+
+                    <a href="../users/1015/profile.html" class="btn btn-sm btn-primary teacher-btn-action ml-15">Book a Meeting</a>
+            </div>
+</div>
+
+                                
+
+                
+                                    <div class="rounded-lg tags-card shadow-sm mt-35 px-25 py-20">
+                        <h3 class="sidebar-title font-16 text-secondary font-weight-bold">Tags</h3>
+
+                        <div class="d-flex flex-wrap mt-10">
+                                                            <a href="#" class="tag-item bg-gray200 p-5 font-14 text-gray font-weight-500 rounded">linux</a>
+                                                            <a href="#" class="tag-item bg-gray200 p-5 font-14 text-gray font-weight-500 rounded">os</a>
+                                                            <a href="#" class="tag-item bg-gray200 p-5 font-14 text-gray font-weight-500 rounded">network</a>
+                                                    </div>
+                    </div>
+                                
+                                    <div class="row">
+                                                    <div class="rounded-lg sidebar-ads mt-35 col-12">
+                                <a href="../instructors.html">
+                                    <img src="../store/1/default_images/banners/reserve_a_meeting_ar.png" class="img-cover rounded-lg" alt="حجز اجتماع - صفحة الدورة">
+                                </a>
+                            </div>
+                                                    <div class="rounded-lg sidebar-ads mt-35 col-12">
+                                <a href="../certificate_validation.html">
+                                    <img src="../store/1/default_images/banners/validate_certificates_banner_ar.png" class="img-cover rounded-lg" alt="التحقق من صحة الشهادة - صفحة الدورة">
+                                </a>
+                            </div>
+                                            </div>
+
+                            </div>
+        </div>
+
+        
+                
+    </section>
+
+    <div id="webinarReportModal" class="d-none">
+        <h3 class="section-title after-line font-20 text-dark-blue">ابلاغ </h3>
+
+        <form action="https://lms.rocket-soft.org/course/1996/report" method="post" class="mt-25">
+
+            <div class="form-group">
+                <label class="text-dark-blue font-14">السبب</label>
+                <select id="reason" name="reason" class="form-control">
+                    <option value="" selected disabled>اختيار سبب</option>
+
+                                            <option value="reason 2">reason 2</option>
+                                            <option value="reason 1">reason 1</option>
+                                    </select>
+                <div class="invalid-feedback"></div>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark-blue font-14" for="message_to_reviewer">Message to reviewer</label>
+                <textarea name="message" id="message_to_reviewer" class="form-control" rows="10"></textarea>
+                <div class="invalid-feedback"></div>
+            </div>
+            <p class="text-gray font-16">يرجي وصف المشكلة بوضوح.</p>
+
+            <div class="mt-30 d-flex align-items-center justify-content-end">
+                <button type="button" class="js-course-report-submit btn btn-sm btn-primary">ابلاغ</button>
+                <button type="button" class="btn btn-sm btn-danger ml-10 close-swl">Close</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="d-none" id="courseShareModal">
+    <h3 class="section-title after-line font-20 text-dark-blue mb-25">Share</h3>
+
+    <div class="text-center">
+        <i data-feather="share-2" width="50" height="50" class="webinar-icon"></i>
+
+        <p class="mt-20 font-14">Share class with your friends</p>
+
+        <div class="position-relative d-flex align-items-center justify-content-between p-15 mt-15 border border-gray250 rounded-sm mt-5">
+            <div class="js-course-share-link font-weight-bold px-16 text-ellipsis font-14">https://lms.rocket-soft.org/course/Learn-Linux-in-5-Days</div>
+
+            <button type="button" class="js-course-share-link-copy btn btn-primary btn-sm font-14 font-weight-500 flex-none" data-toggle="tooltip" data-placement="top" title="Copy">Copy</button>
+        </div>
+
+        <div class="mt-32 mt-lg-40 row align-items-center font-14">
+            <a href="https://telegram.me/share/url?url=https://lms.rocket-soft.org/course/Learn-Linux-in-5-Days&amp;text=Default+share+text" target="_blank" class="col text-center">
+                <img src="../assets/default/img/social/telegram.svg" width="50" height="50" alt="telegram">
+                <span class="mt-10 d-block">Telegram</span>
+            </a>
+
+            <a href="https://wa.me/?text=https://lms.rocket-soft.org/course/Learn-Linux-in-5-Days" target="_blank" class="col text-center">
+                <img src="../assets/default/img/social/whatsapp.svg" width="50" height="50" alt="whatsapp">
+                <span class="mt-10 d-block">Whatsapp</span>
+            </a>
+
+            <a href="https://m.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flms.rocket-soft.org%2Fcourse%2FLearn-Linux-in-5-Days" target="_blank" class="col text-center">
+                <img src="../assets/default/img/social/facebook.svg" width="50" height="50" alt="facebook">
+                <span class="mt-10 d-block">Facebook</span>
+            </a>
+
+            <a href="../../twitter.com/intent/tweet5dd8.html?text=Default+share+text&amp;url=https://lms.rocket-soft.org/course/Learn-Linux-in-5-Days" target="_blank" class="col text-center">
+                <img src="../assets/default/img/social/twitter.svg" width="50" height="50" alt="twitter">
+                <span class="mt-10 d-block">Twitter</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="mt-30 d-flex align-items-center justify-content-end">
+        <button type="button" class="btn btn-sm btn-danger ml-10 close-swl">Close</button>
+    </div>
+</div>
+    <div class="d-none" id="buyWithPointModal">
+    <h3 class="section-title font-16 text-dark-blue mb-25">Buy with points</h3>
+
+    </div>
+
+            <footer class="footer bg-secondary position-relative user-select-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class=" footer-subscribe d-block d-md-flex align-items-center justify-content-between">
+                    <div class="flex-grow-1">
+                        <strong>انضم لنا اليوم</strong>
+                        <span class="d-block mt-5 text-white">#ستحصل علي احدث العروض والتخفيضات علي الايميل.</span>
+                    </div>
+                    <div class="subscribe-input bg-white p-10 flex-grow-1 mt-30 mt-md-0">
+                        <form action="https://lms.rocket-soft.org/newsletters" method="post">
+                            <input type="hidden" name="_token" value="kra4XJXSDfBxUwat9nsXOrCUvfUSfuhAEdyDVWhC">
+
+                            <div class="form-group d-flex align-items-center m-0">
+                                <div class="w-100">
+                                    <input type="text" name="newsletter_email" class="form-control border-0 " placeholder="ادخل ايميلك هنا"/>
+                                                                    </div>
+                                <button type="submit" class="btn btn-primary rounded-pill">انضمام</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+
+                            <div class="col-6 col-md-3">
+                                                                        <span class="header d-block text-white font-weight-bold">معلومات عنا</span>
+                        
+                                                    <div class="mt-20">
+                                <p><font color="#ffffff">Rocket LMS هو نظام إدارة تعلم كامل الميزات يساعدك على إدارة أعمالك التعليمية في عدة ساعات. تساعد هذه المنصة المعلمين على إنشاء مواد تعليمية احترافية وتساعد الطلاب على التعلم من أفضل المدربين.</font></p>
+                            </div>
+                                                            </div>
+                            <div class="col-6 col-md-3">
+                                                                        <span class="header d-block text-white font-weight-bold">روابط إضافية</span>
+                        
+                                                    <div class="mt-20">
+                                <p><a href="../login.html"><span style="color: #ffffff;">- تسجيل الدخول</span></a></p>
+<p><span style="color: #ffffff;"><a href="../register.html"><span style="color: #ffffff;">- تسجيل</span></a><br></span></p>
+<p><a href="../blog.html"><span style="color: #ffffff;">- مقالات</span></a></p>
+<p><a href="../contact.html"><span style="color: #ffffff;">- اتصل بنا</span></a></p>
+<p><span style="color: #ffffff;"><a href="../certificate_validation.html"><span style="color: #ffffff;">- التحقق من صحة الشهادة</span></a><br></span></p>
+<p><span style="color: #ffffff;"><a href="../become_instructor.html"><span style="color: #ffffff;">- أصبح مدربا</span></a><br></span></p>
+<p><a href="../pages/terms.html"><span style="color: #ffffff;">- الشروط والقواعد</span></a></p>
+<p><a href="../pages/about.html"><span style="color: #ffffff;">- معلومات عنا</span></a></p>
+                            </div>
+                                                            </div>
+                            <div class="col-6 col-md-3">
+                                                                        <span class="header d-block text-white font-weight-bold">أعمال مماثلة</span>
+                        
+                                                    <div class="mt-20">
+                                <p><a href="../../www.udemy.com/index.html" target="_blank"><font color="#ffffff">- يودمي</font></a></p><p><a href="../../www.skillshare.com/index.html" target="_blank"><font color="#ffffff">- اسکیل شیر</font></a></p><p><a href="../../www.coursera.org/index.html" target="_blank"><font color="#ffffff">- كرس ايرا</font></a></p><p><a href="../../www.linkedin.com/learning/index.html" target="_blank"><font color="#ffffff">- لیندا</font></a></p><p><a href="../../www.skillsoft.com/index.html" target="_blank"><font color="#ffffff">- اسكيل سفت</font></a></p><p><a href="../../www.udacity.com/index.html" target="_blank"><font color="#ffffff">- اوداسيتي</font></a></p><p><a href="../../www.edx.org/index.html" target="_blank"><font color="#ffffff">ادكس</font></a></p><p><a href="../../www.masterclass.com/index.html" target="_blank"><font color="#ffffff">- مستر كلس</font></a><br></p>
+                            </div>
+                                                            </div>
+                            <div class="col-6 col-md-3">
+                                                                        <span class="header d-block text-white font-weight-bold">قم بشراء Rocket LMS</span>
+                        
+                                                    <div class="mt-20">
+                                <p><a title="Notnt" href="../../codecanyon.net/index.html"><img style="width: 200px;" src="../store/1/default_images/envato.png"></a></p>
+                            </div>
+                                                            </div>
+            
+        </div>
+
+        <div class="mt-40 border-blue py-25 d-flex align-items-center justify-content-between">
+            <div class="footer-logo">
+                <a href="../index.html">
+                                            <img src="../store/1/default_images/website-logo-white.png" class="img-cover" alt="footer logo">
+                                    </a>
+            </div>
+            <div class="footer-social">
+                                                            <a href="../../www.instagram.com/index.html">
+                            <img src="../store/1/default_images/social/instagram.svg" alt="Instagram" class="mr-15">
+                        </a>
+                                            <a href="../../web.whatsapp.com/index.html">
+                            <img src="../store/1/default_images/social/whatsapp.svg" alt="Whatsapp" class="mr-15">
+                        </a>
+                                            <a href="../../twitter.com/index.html">
+                            <img src="../store/1/default_images/social/twitter.svg" alt="Twitter" class="mr-15">
+                        </a>
+                                            <a href="../../www.facebook.com/index.html">
+                            <img src="../store/1/default_images/social/facebook.svg" alt="Facebook" class="mr-15">
+                        </a>
+                                                </div>
+        </div>
+    </div>
+</footer>
+    </div>
+<!-- Template JS File -->
+<script src="../assets/default/js/app.js"></script>
+<script src="../assets/default/vendors/feather-icons/dist/feather.min.js"></script>
+<script src="../assets/default/vendors/moment.min.js"></script>
+<script src="../assets/default/vendors/sweetalert2/dist/sweetalert2.min.js"></script>
+<script src="../assets/default/vendors/toast/jquery.toast.min.js"></script>
+<script type="text/javascript" src="../assets/default/vendors/simplebar/simplebar.min.js"></script>
+
+<script>
+    var deleteAlertTitle = 'Are you sure?';
+    var deleteAlertHint = 'This action cannot be undone!';
+    var deleteAlertConfirm = 'Delete';
+    var deleteAlertCancel = 'Cancel';
+    var deleteAlertSuccess = 'Success';
+    var deleteAlertFail = 'Failed';
+    var deleteAlertFailHint = 'Error while deleting item!';
+    var deleteAlertSuccessHint = 'Item successfully deleted.';
+    var forbiddenRequestToastTitleLang = 'public.forbidden_request_toast_lang';
+    var forbiddenRequestToastMsgLang = 'public.forbidden_request_toast_msg_lang';
+</script>
+
+
+    <script src="../assets/default/js/parts/time-counter-down.min.js"></script>
+    <script src="../assets/default/vendors/barrating/jquery.barrating.min.js"></script>
+    <script src="../assets/default/vendors/video/video.min.js"></script>
+    <script src="../assets/default/vendors/video/youtube.min.js"></script>
+    <script src="../assets/default/vendors/video/vimeo.js"></script>
+
+    <script>
+        var webinarDemoLang = 'جلسة تجريبي';
+        var replyLang = 'رد';
+        var closeLang = 'Close';
+        var saveLang = 'Save';
+        var reportLang = 'ابلاغ';
+        var reportSuccessLang = 'تم ارسال بلاغك.';
+        var reportFailLang = 'فشل الابلاغ تأكد من تسجيل الدخول.';
+        var messageToReviewerLang = 'Message to reviewer';
+        var copyLang = 'Copy';
+        var copiedLang = 'Copied';
+        var learningToggleLangSuccess = 'Your learning status successfully changed.';
+        var learningToggleLangError = 'Failed to change learning status.';
+        var notLoginToastTitleLang = 'Restricted Content';
+        var notLoginToastMsgLang = 'Please login to access the content.';
+        var notAccessToastTitleLang = 'Access denied';
+        var notAccessToastMsgLang = 'You dont have access to this content.';
+        var canNotTryAgainQuizToastTitleLang = 'Reched out';
+        var canNotTryAgainQuizToastMsgLang = 'You can not take this quiz again.';
+        var canNotDownloadCertificateToastTitleLang = 'Download failed';
+        var canNotDownloadCertificateToastMsgLang = 'You can not download this certificate.';
+        var sessionFinishedToastTitleLang = 'Session Finished';
+        var sessionFinishedToastMsgLang = 'You are too late, this session finished.';
+
+    </script>
+
+    <script src="../assets/default/js/parts/comment.min.js"></script>
+    <script src="../assets/default/js/parts/video_player_helpers.min.js"></script>
+    <script src="../assets/default/js/parts/webinar_show.min.js"></script>
+    <link href="../assets/default/vendors/flagstrap/css/flags.css" rel="stylesheet">
+    <script src="../assets/default/vendors/flagstrap/js/jquery.flagstrap.min.js"></script>
+    <script src="../assets/default/js/parts/top_nav_flags.min.js"></script>
+    <script src="../assets/default/js/parts/navbar.min.js"></script>
+
+<script src="../assets/default/js/parts/main.min.js"></script>
+
+<script>
+    
+    
+</script>
+</body>
+
+<!-- Mirrored from lms.rocket-soft.org/course/Learn-Linux-in-5-Days by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Apr 2022 07:41:15 GMT -->
+</html>
